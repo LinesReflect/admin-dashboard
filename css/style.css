@@ -118,21 +118,21 @@ img.user-image-small {
   grid-column: 1 / 4;
   grid-row: 2 / 3;
   display: grid;
-  grid-template-columns: 1fr 7fr;
+  grid-template-columns: max-content max-content;
   align-items: center;
+  gap: 20px;
 }
 
 .greeting-container img {
-  grid-column: 1 / -1;
+  grid-column: 1 / 1;
   grid-row: 1 / -1;
 
 }
 
 .greeting-text {
-  grid-column: 2 / -1;
+  grid-column: 2 / 2;
   grid-row: 1 / -1;
   font-weight: bold;
-
 }
 
 .greeting-text .greet-name {
