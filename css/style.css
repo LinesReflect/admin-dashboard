@@ -98,7 +98,8 @@ input[type="search"] {
   border-radius: 25px;
   border: 1px solid lightgray;
   background-color: lightgray;
-  padding: 20px 5px;
+  font-size: 30px;
+  padding: 10px 15px;
 }
 
 input[type="search"]:hover {
@@ -132,6 +133,17 @@ img.user-image-small {
   justify-content: end;
   font-size: 18px;
   font-weight: bold;
+}
+
+.user-info .icon:hover {
+  cursor: pointer;
+  background-color: rgb(253, 222, 180);
+  border-radius: 25px;
+}
+
+.user-info .icon:active {
+  background-color: rgb(252, 203, 134);
+  border-radius: 25px;
 }
 
 .greeting-container {
@@ -174,6 +186,17 @@ img.user-image-small {
   background-color: #FF5100;
   border-color: #ad3700;
   border-radius: 25px;
+}
+
+.button-container button:hover {
+  cursor: pointer;
+  background-color: #ff712f;
+  border-color: #ff712f;
+}
+
+.button-container button:active {
+  background-color: #ad3700;
+  border: 1px solid black;
 }
 
 .main-content {
