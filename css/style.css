@@ -184,7 +184,7 @@ img.user-image-small {
   grid-row: 1 / 1;
   display: grid;
   grid-auto-rows: min-content;
-  gap: 15px;
+  gap: 20px;
 }
 
 .announcement-card {
@@ -216,7 +216,7 @@ img.user-image-small {
   grid-row: 2 / 2;
   display: grid;
   grid-auto-rows: min-content;
-  gap: 15px;
+  gap: 20px;
 }
 
 .trending-card {
@@ -238,7 +238,7 @@ img.user-image-small {
   align-items: center;
 }
 
-.trending-user:last-child {
+.trend:last-child {
   border: none;
 }
 
