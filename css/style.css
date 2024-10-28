@@ -230,8 +230,10 @@ img.user-image-small {
   background-color: antiquewhite;
   border-radius: 5px;
   border-top: 10px solid #FF5100;
-  padding: 20px 10px;
+  padding: 10px 10px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  display: grid;
+  grid-auto-rows: max-content 2fr max-content;
 }
 
 .card:hover,
@@ -256,6 +258,23 @@ img.user-image-small {
   font-size: 18px;
   text-align: center;
   font-weight: bold;
+}
+
+.links {
+  grid-row: 3 / 3;
+  justify-self: right;
+}
+
+.links .icon {
+  fill: black;
+}
+
+.links .icon:hover {
+  fill: gray;
+}
+
+.links .icon:active {
+  fill: white;
 }
 
 .announcements {
