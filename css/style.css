@@ -116,19 +116,19 @@ img.user-image-small {
 }
 
 .button-container {
-  grid-column: 4 / 6;
+  grid-column: 4 / 5;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-flow: column;
   gap: 20px;
-  padding: 40px;
-  justify-content: start;
-  align-items: start;
+  align-items: end;
 }
 
 .button-container button {
+  width: 100px;
+  height: 50px;
   color: white;
-  background-color: #222EB3;
+  background-color: rgb(34, 46, 179, 0.75);
+  border-color: rgb(34, 46, 179, 0.75);
   border-radius: 25px;
 }
 
